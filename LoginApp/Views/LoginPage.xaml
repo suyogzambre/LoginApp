@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LoginApp.Views.LoginPage"
+             BackgroundColor="FloralWhite" Title="Login">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+            <StackLayout Padding="20" Margin="0,50,0,0">
+                <Label Text="User Name" TextColor="Black"></Label>
+                <Entry Text="" Placeholder="User Name" x:Name="UsernameEntry"></Entry>
+                <Label Text="Password" TextColor="Black"></Label>
+                <Entry Text=""  Placeholder="Password" IsPassword="True"></Entry>
+                <Button Text="login" BackgroundColor="Gray" TextColor="White" ></Button>
+                <Label Text="Not a Member? SingUp Now" TextColor="Gray" HorizontalOptions="Center"></Label>
+                
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
